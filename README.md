@@ -1,12 +1,56 @@
-# React + Vite
+# Agenda de Contatos com React, Vite e Tailwind CSS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Uma aplicação simples de agenda de contatos desenvolvida com React, Vite e Tailwind CSS. Permite adicionar, editar e remover contatos com nome, telefone e e-mail.
 
-Currently, two official plugins are available:
+## 🚀 Como rodar localmente
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. **Clone o repositório**
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+2. **Instale as dependências**
+
+  npm install
+
+3. **Inicie o servidor de desenvolvimento**
+
+  npm run dev
+
+
+A aplicação estará disponível em [http://localhost:5173](http://localhost:5173).
+
+## 🛠️ Tecnologias utilizadas
+
+- **React**
+- **Vite**
+- **Tailwind CSS**
+- **PostCSS**
+- **ESLint** (para linting)
+
+## 📋 Funcionalidades
+
+- **Adicionar contato**: Insira nome, telefone e e-mail.
+- **Editar contato**: Altere as informações de um contato existente.
+- **Remover contato**: Exclua um contato da agenda.
+
+## 📂 Estrutura do projeto
+
+minha-agenda/<br>
+├── node_modules/<br>
+├── public/<br>
+├── src/<br>
+│ ├── App.jsx<br>
+│ ├── index.css<br>
+│ └── main.jsx<br>
+├── .eslintrc.js<br>
+├── postcss.config.cjs<br>
+├── tailwind.config.js<br>
+├── package.json<br>
+└── README.md<br>
+
+## 📝 Licença
+
+MIT
+
+---
+
+Feito com ❤️ por João Paulo
